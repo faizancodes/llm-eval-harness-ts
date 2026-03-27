@@ -1,0 +1,15 @@
+{
+  "hsToolsmith": true,
+  "title": "llm-eval-harness-ts",
+  "pitch": "Provider-agnostic LLM evaluation runner with dataset versioning and reproducible scoring reports.",
+  "language": "typescript",
+  "category": "Developer Tools",
+  "keyFeatures": [
+    "Unified adapter for llm-chain compatible providers",
+    "Dataset + prompt template versioning via manifest files",
+    "Deterministic runs with caching and seed control",
+    "Pluggable metrics (exact-match, rubric/judge, latency, cost)",
+    "Markdown/JSON report generation for PR review"
+  ],
+  "targetUsers": "TypeScript teams comparing OpenAI/Anthropic/Gemini/Groq models for production prompts and agents."
+}
